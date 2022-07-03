@@ -1,15 +1,14 @@
-
-class Lernand {
+class Astpod {
   constructor(...options) {
-    this.height = "1.73"
-    this.weight = "62"
+    this.height = "1.85"
+    this.weight = "63"
     this.type = "human"
     this.job = "student"
     this.sex = "male"
   }
 }
 
-class CreateMan extends Lernand {
+class CreateMan extends Astpod {
   constructor(...options) {
     super(options);
   }
@@ -34,5 +33,5 @@ class CreateMan extends Lernand {
   
 }
 
-let Lernand = new CreateMan()
-Lernand.createDay();
+let Astpod = new CreateMan()
+Astpod.createDay();
