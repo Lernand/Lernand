@@ -1,4 +1,4 @@
-class Astpod {
+`class Astpod {
   constructor(...options) {
     this.height = "1.85"
     this.weight = "63"
@@ -34,4 +34,4 @@ class CreateMan extends Astpod {
 }
 
 let Astpod = new CreateMan()
-Astpod.createDay();
+Astpod.createDay();`
