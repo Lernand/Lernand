@@ -34,9 +34,10 @@ class CreateMan extends Lernand {
   
   }
   
-  
-<img src="https://komarev.com/ghpvc/?username=Lernand&label=Ziyaretçi%20Sayısı&color=552b75" alt="Lernand" />
+
 
 let Lernand = new CreateMan()
 Lernand.createDay();
 ```
+
+<img src="https://komarev.com/ghpvc/?username=Astpod&label=Ziyaretçi%20Sayısı&color=552b75" alt="Astpod" />
