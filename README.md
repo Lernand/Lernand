@@ -1,16 +1,37 @@
-### Hi there 👋
+class Lernand {
+  constructor(...options) {
+    this.height = "1.73"
+    this.weight = "62"
+    this.type = "human"
+    this.job = "student"
+    this.sex = "male"
+  }
+}
 
-<!--
-**Lernand/Lernand** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class CreateMan extends Lernand {
+  constructor(...options) {
+    super(options);
+  }
+  
+  private _eating() {
+    void "eating 🍔 🍟 🍗 🥤"
+  }
+  
+  private _coding() {
+    void "coding... ❤️"
+  }
+  
+  private _sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)) }
+  
+  async createDay() {
+    this._eating()
+    this._coding()
+    await this._sleep(18000000)
+    
+    this.createDay()
+  }
+  
+}
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+let Lernand = new CreateMan()
+Lernand.createDay();
