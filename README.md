@@ -1,8 +1,8 @@
 ```js
 class Lernand {
   constructor(...options) {
-    this.height = "1.73"
-    this.weight = "62"
+    this.height = "1.81"
+    this.weight = "69"
     this.type = "human"
     this.job = "student"
     this.sex = "male"
